@@ -30,7 +30,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
 
         textFieldDelegate = self
-        view.backgroundColor = .systemGray
+        view.backgroundColor = .systemBlue
 
         view.addSubview(imageController.view)
         self.addChild(imageController)
@@ -48,7 +48,7 @@ class MainViewController: UIViewController {
         layoutImage()
         layoutText()
 
-        imageController.updateImage(with: "michael")
+        imageController.updateImage(with: "placeholder")
     }
 
     private func layoutImage() {
@@ -79,7 +79,9 @@ class MainViewController: UIViewController {
     }
 
     public func updatePrediction(with text:String) {
-        labelController.updateLabel(with: "You're " + text)
+        let char = MainViewManager.predictCharacter(text: text)
+        imageController.updateImage(with: char.lowercased())
+        labelController.updateLabel(with: "You're " + char)
     }
 
 }

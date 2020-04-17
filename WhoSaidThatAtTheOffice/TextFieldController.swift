@@ -19,7 +19,8 @@ class TextViewController: UIViewController {
     private lazy var boundingBox: UIView = {
         let border = UIView(frame: .zero)
         border.layer.cornerRadius = 45/2
-        border.layer.borderColor = UIColor.systemYellow.cgColor
+        border.layer.borderColor = UIColor(red: 14/255, green: 58/255, blue: 175/255, alpha: 1.0).cgColor
+        border.backgroundColor = .white
         border.layer.borderWidth = 2
         border.clipsToBounds = true
         border.isUserInteractionEnabled = true

@@ -40,6 +40,11 @@ class MainViewController: UIViewController {
         self.addChild(textFieldController)
         textFieldController.didMove(toParent: self)
 
+        view.addSubview(labelController.view)
+        self.addChild(labelController)
+        labelController.didMove(toParent: self)
+
+        layoutLabel()
         layoutImage()
         layoutText()
 
@@ -74,13 +79,14 @@ class MainViewController: UIViewController {
     }
 
     public func updatePrediction(with text:String) {
-        
+        labelController.updateLabel(with: "You're " + text)
     }
 
 }
 
 extension MainViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        updatePrediction(with: textFieldController.recoverTextValue())
         return textField.resignFirstResponder()
     }
 }

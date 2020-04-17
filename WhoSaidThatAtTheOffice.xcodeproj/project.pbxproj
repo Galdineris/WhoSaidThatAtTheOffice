@@ -11,6 +11,7 @@
 		F21CF2FF244A3E8E00EF5CA4 /* TextFieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21CF2FE244A3E8E00EF5CA4 /* TextFieldController.swift */; };
 		F21CF301244A50DB00EF5CA4 /* MainViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21CF300244A50DB00EF5CA4 /* MainViewManager.swift */; };
 		F21CF303244A53B900EF5CA4 /* TitleLabelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21CF302244A53B900EF5CA4 /* TitleLabelController.swift */; };
+		F21CF305244A589F00EF5CA4 /* TheOfficeClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F21CF304244A589F00EF5CA4 /* TheOfficeClassifier.mlmodel */; };
 		F256A2F32449E7220088F0C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F256A2F22449E7220088F0C6 /* AppDelegate.swift */; };
 		F256A2F52449E7220088F0C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F256A2F42449E7220088F0C6 /* SceneDelegate.swift */; };
 		F256A2F72449E7220088F0C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F256A2F62449E7220088F0C6 /* MainViewController.swift */; };
@@ -23,6 +24,7 @@
 		F21CF2FE244A3E8E00EF5CA4 /* TextFieldController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldController.swift; sourceTree = "<group>"; };
 		F21CF300244A50DB00EF5CA4 /* MainViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewManager.swift; sourceTree = "<group>"; };
 		F21CF302244A53B900EF5CA4 /* TitleLabelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabelController.swift; sourceTree = "<group>"; };
+		F21CF304244A589F00EF5CA4 /* TheOfficeClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TheOfficeClassifier.mlmodel; sourceTree = "<group>"; };
 		F256A2EF2449E7220088F0C6 /* WhoSaidThatAtTheOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhoSaidThatAtTheOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F256A2F22449E7220088F0C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F256A2F42449E7220088F0C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				F256A2F82449E7280088F0C6 /* Assets.xcassets */,
 				F256A2FD2449E7280088F0C6 /* LaunchScreen.storyboard */,
 				F256A3002449E7280088F0C6 /* Info.plist */,
+				F21CF304244A589F00EF5CA4 /* TheOfficeClassifier.mlmodel */,
 			);
 			path = WhoSaidThatAtTheOffice;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				F256A2F52449E7220088F0C6 /* SceneDelegate.swift in Sources */,
 				F21CF303244A53B900EF5CA4 /* TitleLabelController.swift in Sources */,
 				F21CF2FD244A166500EF5CA4 /* ImageViewController.swift in Sources */,
+				F21CF305244A589F00EF5CA4 /* TheOfficeClassifier.mlmodel in Sources */,
 				F256A2F72449E7220088F0C6 /* MainViewController.swift in Sources */,
 				F21CF301244A50DB00EF5CA4 /* MainViewManager.swift in Sources */,
 			);
